@@ -58,13 +58,13 @@ The goal is to make statistically supported recommendations based on historical 
 
 # Factor Impact Analysis
 
-Analyze the effect of:
+1. Analyze the effect of:
 
-1. Phase of Flight (e.g., approach, cruise, climb)
+   Phase of Flight (e.g., approach, cruise, climb)
 
-2. Engine Count
+   Engine Count
 
-3. Use grouped barplots and distribution plots
+2. Use grouped barplots and distribution plots
 
 # Recommendations
 
