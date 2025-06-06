@@ -4,6 +4,7 @@
 This project analyzes commercial and passenger jet airline accident data from 1948 to 2023 to assist an airline/airplane insurance client in identifying aircraft makes/models with:
 1. Low rates of total destruction
 2. Low likelihood of fatal or serious injuries in the event of an accident
+
 The goal is to make statistically supported recommendations based on historical safety performance, while also identifying conditions or factors (e.g., phase of flight, weather, engine type) that affect aircraft safety.
 
 # Client Requirements
@@ -17,13 +18,14 @@ The goal is to make statistically supported recommendations based on historical 
 
 3. Only consider makes/models with at least 10 records to ensure statistical robustness.
 
-4. Investigate and highlight at least two contributing variables to safety (e.g., engine count, flight phase, weather).
+4. Investigate and highlight at least two contributing variables to safety (e.g., flight phase, weather).
 
 # Dataset
  
   AvaiationData.CSV file
 
 # Tasks Summary
+
 1. Data Loading & Cleaning
 
 2. Load CSV into a pandas DataFrame
@@ -56,13 +58,13 @@ The goal is to make statistically supported recommendations based on historical 
 
 # Factor Impact Analysis
 
-1. Analyze the effect of:
+Analyze the effect of:
 
-2. Phase of Flight (e.g., approach, cruise, climb)
+1. Phase of Flight (e.g., approach, cruise, climb)
 
-3. Engine Count
+2. Engine Count
 
-4. Use grouped barplots and distribution plots
+3. Use grouped barplots and distribution plots
 
 # Recommendations
 
