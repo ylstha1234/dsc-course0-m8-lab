@@ -26,13 +26,13 @@ The goal is to make statistically supported recommendations based on historical 
 
 # Tasks Summary
 
-1. Data Loading & Cleaning
+# Data Loading & Cleaning
 
-2. Load CSV into a pandas DataFrame
+1. Load CSV into a pandas DataFrame
 
-3. Drop or impute missing values
+2. Drop or impute missing values
 
-4. Filter records from 1983 onward
+3. Filter records from 1983 onward
 
 # Feature Engineering
 
