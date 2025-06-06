@@ -24,80 +24,71 @@ The goal is to make statistically supported recommendations based on historical 
   AvaiationData.CSV file
 
 # Tasks Summary
+1. Data Loading & Cleaning
 
-  Data Loading & Cleaning
+2. Load CSV into a pandas DataFrame
 
-  Load CSV into a pandas DataFrame
+3. Drop or impute missing values
 
-  Drop or impute missing values
-
-  Filter records from 1983 onward
+4. Filter records from 1983 onward
 
 # Feature Engineering
 
-  Compute total passengers per accident
+1. Compute total passengers per accident
 
-  Calculate serious/fatal injury rates
+2. Calculate serious/fatal injury rates
 
-  Add binary is_destroyed flag
+3. Add binary is_destroyed flag
 
-  Classify aircraft as Small or Large
+4. Classify aircraft as Small or Large
 
 # Exploratory Data Analysis (EDA)
 
-  Group by Make and compute:
+1. Group by Make and compute:
 
-  Mean injury rate
+2. Mean injury rate
 
-  Mean destruction rate
+3. Mean destruction rate
 
-  Filter to makes with ≥10 records
+4. Filter to makes with ≥10 records
 
-  Visualize with barplots, violin plots, and stripplots
+4. Visualize with barplots, violin plots, and stripplots
 
 # Factor Impact Analysis
 
-  Analyze the effect of:
+1. Analyze the effect of:
 
-  Phase of Flight (e.g., approach, cruise, climb)
+2. Phase of Flight (e.g., approach, cruise, climb)
 
-  Engine Count
+3. Engine Count
 
-  Use grouped barplots and distribution plots
+4. Use grouped barplots and distribution plots
 
 # Recommendations
 
-  Identify the top 10 safest makes (separately for small and large aircraft)
+1. Identify the top 10 safest makes (separately for small and large aircraft)
 
-  Discuss factors contributing to safety
+2. Discuss factors contributing to safety
 
-  Highlight outliers or makes with high risk
+3. Highlight outliers or makes with high risk
 
 # Key Tools & Libraries
-  
-  Python
 
-  Pandas: Data manipulation and wrangling
+1. Python
 
-  Seaborn/Matplotlib: Visualization
+2. Pandas: Data manipulation and wrangling
 
-  NumPy: Numerical operations
+3. Seaborn/Matplotlib: Visualization
+
+3. NumPy: Numerical operations
 
 # Outcomes
 
-  List of aircraft makes/models with strong safety profiles
+1. List of aircraft makes/models with strong safety profiles
 
-  Visual and statistical insights into aircraft destruction and injury outcomes
+2. Visual and statistical insights into aircraft destruction and injury outcomes
 
-  Factor-based recommendations for safer operations and insurability
-
-# Sample Visuals
-
-  Barplots comparing mean destruction and injury rates
-
-  Violin plots of injury rate distributions
-
-  Grouped barplots analyzing phase of flight and engine impact
+3. Factor-based recommendations for safer operations and insurability
 
 # Final Recommendation
 
@@ -105,4 +96,4 @@ This project delivers a data-driven safety profile of jet aircraft to guide deci
 
 # References
 
-Link: https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses
+  Link: https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses
